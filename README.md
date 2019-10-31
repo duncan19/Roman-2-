@@ -1,6 +1,10 @@
-* Non-numbers are returned immediately with a snarky comment saying "no, YOU deal with this"
+* Non-numbers return an error
 ```
 "potato" >> "potato no, YOU deal with this"
+```
+* Mixed numbers and non-numbers filter to the numbers only
+```
+POTATO 55 >> evaluated as 55
 ```
 * If value equals the value of a symbol, return the symbol
 ```
